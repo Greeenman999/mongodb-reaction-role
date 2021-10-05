@@ -12,7 +12,8 @@ class react {
     
     return mongoose.connect(dbUrl, {
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
+      dbName: 'urutox-bot'
     });
   }
 
